@@ -15,6 +15,7 @@ This way the application will scan for this particular device only.
 The application is mainly based by Polar Flutter Package (https://pub.dev/packages/polar) & Flutter Plot Package (https://pub.dev/packages/flutter_plot) <br><br>
 The device used for testing the development was a Polar OH1.
 
+## Copyright
 Copyright 2021 Bondi Francesco
 
 Licensed under the Apache License, Version 2.0 (the "License");
