@@ -1,11 +1,19 @@
-# Polar Flutter Heart Rate Application
+# Polar Heart Rate Application - Flutter
 
 An app which plots the heart rate datas received by a Polar device.
 
-## Getting Started
+## A few notes
 
-The application is mainly based by Polar Flutter Package: https://pub.dev/packages/polar <br><br>
-The device used for testing the development is a Polar OH1.
+Remember to change the identifier and write down the one of the device you are using:
+```ruby
+class _MyAppState extends State<MyApp> {
+  static const identifier = '20341925';
+```
+This way the application will scan for this particular device only.
+
+## How it's done
+The application is mainly based by Polar Flutter Package (https://pub.dev/packages/polar) & Flutter Plot Package (https://pub.dev/packages/flutter_plot) <br><br>
+The device used for testing the development was a Polar OH1.
 
 F.Bondi
 
