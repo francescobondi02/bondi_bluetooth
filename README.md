@@ -4,7 +4,7 @@ An app which plots the heart rate datas received by a Polar device.
 
 ## A few notes
 
-Remember to change the identifier and write down the one of the device you are using:
+Remember to change the identifier in lib/main.dart and write down the one of the device you are using:
 ```ruby
 class _MyAppState extends State<MyApp> {
   static const identifier = '20341925';
